@@ -31,12 +31,3 @@ public class Day7{
     }
 }
 
-/*
-
-Input/Output:
-
-Enter the temperature in Fahrenheit: 
-34
-Temperature in Celcius is 1.1111111111111112
-
-*/

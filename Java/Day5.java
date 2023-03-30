@@ -14,27 +14,22 @@ public class Day5{
         System.out.println("Enter the n: ");
         int n = sc.nextInt();
 
-        for(int i = 1; i <= n; i++){
-            sum += i;
-        }
-
+        sum = ((1 + n) * n) / 2;
         System.out.println("Sum of all the numbers upto "+n+" is "+sum);
     
     }
 }
 
 /*
+ O/p :
 
-Input/Output:
+Enter the n: 
+5
+Sum of all the numbers upto 5 is 15
 
----------------- Sphere Volume ----------------
-Enter the radius of sphere: 
-4
-Volume of given sphere with radius 4 is 200.960
+Enter the n: 
+100
+Sum of all the numbers upto 100 is 5050
 
----------------- Cylinder Volume ----------------
-Enter the radius and the height of cylinder:
-3 5
-Volume of given cylinder with radius 3 and height 5 is 141.300
+ */
 
-*/
