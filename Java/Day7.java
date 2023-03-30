@@ -31,3 +31,13 @@ public class Day7{
     }
 }
 
+/*
+Input/Output:
+
+Enter a number to check whether its prime or not: 7
+Given number is a prime number.
+
+Enter a number to check whether its prime or not: 4
+Given number is not a prime number.
+
+*/
