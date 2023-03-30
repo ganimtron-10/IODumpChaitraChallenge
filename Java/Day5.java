@@ -13,7 +13,15 @@ public class Day5{
         int sum = 0;
         System.out.println("Enter the n: ");
         int n = sc.nextInt();
-
+        
+        /*
+        Method 1 :
+        for(int i = 1; i <= n;i++){
+            sum = sum + i;
+        }
+        */
+        
+        //Method 2 :
         sum = ((1 + n) * n) / 2;
         System.out.println("Sum of all the numbers upto "+n+" is "+sum);
     
@@ -21,7 +29,7 @@ public class Day5{
 }
 
 /*
- O/p :
+Input/Output :
 
 Enter the n: 
 5
